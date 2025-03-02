@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge" >
+    <title>Hospital OPD Appointment Booking Form</title>
+</head>
+<body>
+    <form action="#">
+      <br>
+      <h2>Hospital OPD Appointment Booking Form</h2><br>
+      <label for="hospital-name">Hospital Name:*</label>
+
+      <!--hospital name-->
+
+      <select name="options" id="options">
+        <option value="selectahospital">select a hospital for your next visit</option>
+        <option value="hospital 01">hospital 01</option>
+        <option value="hospital 02">hospital 02</option>
+        <option value="hospital 03">hospital 03</option>
+        <option value="hospital 04">hospital 04</option>
+        <option value="hospital 05">hospital 05</option>
+        <option value="hospital 06">hospital 06</option>
+        <option value="hospital 07">hospital 07</option>
+        <option value="hospital 08">hospital 08</option>
+      </select><br><br>
+
+      <!--visit date-->
+
+      <label for="date">Visit Date:*</label>
+      <input type="date" id="date" name="date" value="date"><br>
+
+      <!--health ID-->
+
+      <p>Do you want to create a health ID?</p>
+      <input type="radio" id="yes" name="health-id" value="yes">
+      <label for="yes">Yes</label>
+      <input type="radio" id="no" name="health-id" value="no">
+      <label for="no">No</label><br><br>
+
+      <!--name-->
+      <label for="name">Name:*</label>
+      <input type="text" id="name" name="name" placeholder="name"><br><br>
+
+      <!--gender-->
+      <label for="gender">Gender:*</label>
+      <select name="gender" id="gender">
+        <option value="male">select</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="male">Others</option>
+      </select><br><br>
+
+      <!--age-->
+      <section>
+        <p>Age:*
+          <label for="year">Year:</label>
+          <input type="tel" id="year" name="year" placeholder="yyyy">
+          <label for="month">Month:</label>
+          <input type="tel" id="month" name="month" placeholder="mm">
+        </p>
+        <p>
+          <label for="day">Day:</label>
+          <input type="tel" id="day" name="day" placeholder="dd"><br>
+        </p>
+    </section>
+       <!--country-->
+
+      <label for="country">Country:*</label>
+      <select name="country" id="country">
+        <option value="c0">select your country name</option>
+        <option value="c1">country1</option>
+        <option value="c2">country2</option>
+        <option value="c3">country3</option>
+        <option value="c4">country4</option>
+        <option value="c5">country5</option>
+        <option value="c6">country6</option>
+        <option value="c7">country7</option>
+        <option value="c8">country8</option>
+        <option value="c9">country9</option>
+        <option value="c10">country10</option>
+        <option value="c11">country11</option>
+      </select><br><br>
+
+      <!--state-->
+
+      <label for="state">State:*</label>
+      <select name="state" id="state">
+        <option value="st0">select your state name</option>
+        <option value="st1">state1</option>
+        <option value="st2">state2</option>
+        <option value="st3">state3</option>
+        <option value="st4">state4</option>
+        <option value="st5">state5</option>
+        <option value="st6">state6</option>
+        <option value="st7">state7</option>
+        <option value="st8">state8</option>
+        <option value="st9">state9</option>
+        <option value="st10">state10</option>
+        <option value="st11">state11</option>
+      </select><br><br>
+
+      <!--district-->
+
+      <label for="district">District:*</label>
+      <select name="district" id="district">
+        <option value="district0">select your district name</option>
+        <option value="district1">district1</option>
+        <option value="district2">district2</option>
+        <option value="district3">district3</option>
+        <option value="district4">district4</option>
+        <option value="district5">district5</option>
+        <option value="district6">district6</option>
+        <option value="district7">district7</option>
+        <option value="district8">district8</option>
+        <option value="district9">district9</option>
+        <option value="district10">district10</option>
+        <option value="district11">district11</option>
+      </select><br><br>
+
+      <!-- police station -->
+
+      <label for="ps">Police Station:*</label>
+      <select name="ps" id="ps">
+        <option value="ps0">select your police station name</option>
+        <option value="ps1">ps1</option>
+        <option value="ps2">ps2</option>
+        <option value="ps3">ps3</option>
+        <option value="ps4">ps4</option>
+        <option value="ps5">ps5</option>
+        <option value="ps6">ps6</option>
+        <option value="ps7">ps7</option>
+        <option value="ps8">ps8</option>
+        <option value="ps9">ps9</option>
+        <option value="ps10">ps10</option>
+        <option value="ps11">ps11</option>
+      </select><br><br>
+
+      <!--Address-->
+
+      <label for="address">Address:*</label><br>
+      <textarea name="address" id="address" rows="5" cols="50"></textarea>
+      <br><br>
+
+      <!--pin-->
+
+      <label for="pin Code">Pin code:*</label>
+      <input type="tel" id="pincode" name="pincode" placeholder="enter your Pin">
+      <br><br>
+      <!--opd depatrment--> 
+
+      <label for="opd">OPD Department:*</label>
+      <select name="opd" id="opd">
+        <option value="opd0">select your OPD department</option>
+        <option value="opd1">department1</option>
+        <option value="opd2">department2</option>
+        <option value="opd3">department3</option>
+        <option value="opd4">department4</option>
+        <option value="opd5">department5</option>
+        <option value="opd6">department6</option>
+        <option value="opd7">department7</option>
+        <option value="opd8">department8</option>
+        <option value="opd9">department9</option>
+        <option value="opd10">department10</option>
+        <option value="opd11">department11</option>
+      </select><br><br>
+
+      <!--Aadhar number-->
+
+      <label for="Aadhar">Aadhar Number:*</label>
+      <input type="tel" id="Aadhar" name="Aadhar" placeholder="Enter your Aadhar no"><br><br>
+
+      <!--health id-->
+    
+      <label for="health id">Health ID Name:</label>
+      <input type="text" id="health idr" name="health idr" placeholder="Enter your health id name"><br><br>
+
+      <!--health id number-->
+
+      <label for="health id number">Health ID Number:</label>
+      <input type="text" id="health id number" name="health id number" placeholder="Enter your health id no"><br><br>
+
+      <!--button-->
+      <section>
+        <button type="cancle"> Cancel </button>
+        <button type="home"> Home </button>
+        <button type="save"> Save </button>
+        
+      </section>
+    </form>
+</body>
+</html>
